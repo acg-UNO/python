@@ -69,6 +69,7 @@ class Television:
     def __str__(self):
         """
         A string to display current status of tv objects Power, Channel, and Volume.
+        :return: string for status of tv objects Power, Channel, and Volume
         """
         if self.__muted:
             volume = Television.MIN_VOLUME
